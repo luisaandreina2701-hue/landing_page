@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+li{
+    display: inline-block;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: darkblue;
+    margin: 30px;
+}
+
+
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contenedor_1{
+    display: flex;
+    min-height: 100vh;
+}
+
+img{
+    width: 300px;
+    border-radius: 100%;
+}
+
+.pc {
+    width: 50%;
+    align-content: center;
+    text-align: center;
+}
+
+.name{
+    width: 50%;
+    text-align: center;
+    align-content: center;
+}
