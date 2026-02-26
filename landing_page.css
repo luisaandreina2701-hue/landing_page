@@ -32,7 +32,8 @@ li{
     text-align: center;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    width: 50px;
+    display: block;
+    width: 90px;
 }
 
 .header:hover{
@@ -52,7 +53,7 @@ header{
     margin:20px 100px;
 }
 
-img{
+.picture{
     width: 300px;
     border-radius: 100%;
 }
@@ -107,6 +108,7 @@ i{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    padding: ;
 }
 
 .iconoscontact{
@@ -127,4 +129,36 @@ i{
     color: rgb(41, 59, 121);;
 }
 
+.contenedor_3{
+    min-height: 100vh;
+    align-content: center;
+}
 
+.proyect_title{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.content_proyect{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 40px 40px;
+    gap: 20px;
+
+}
+
+.card{
+    background-color: rgb(10, 110, 172);
+    justify-items: center;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10%;
+    color: yellow;
+}
+
+.picp{
+    width: 60%;
+
+}
